@@ -35,6 +35,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'thor', '0.20.0'
 
+gem 'devise'
+
+gem 'bootstrap-sass'
+
+
 group :production do
   # Use pg as the production database for Active Record
   gem 'pg'
